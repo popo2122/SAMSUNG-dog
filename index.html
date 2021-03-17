@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>삼성안내견학교</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/pc.css" />
+    <link rel="stylesheet" href="css/tab.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="swiper/swiper.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.transit.min.js"></script>
+    <script src="swiper/swiper.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/tab_mobile.js"></script>
+  </head>
+
+  <body>
+    <!--whole wrap-->
+    <div id="wrap">
+      <!--header-->
+      <header id="header">
+        <div class="header__logo">
+          <img src="img/pc-logo.png" alt="header logo" />
+        </div>
+        <div id="header__menu-btn">
+          <button class="menu-btn">MENU</button>
+        </div>
+        <!--menu slide-->
+        <div id="header__close__btn">
+          <button class="menu-close-btn">CLOSE</button>
+        </div>
+        <ul class="header__menu">
+          <li class="menu__item"><a href="#">반려견문화</a></li>
+          <li class="menu__item">
+            <a href="#">안내견학교</a>
+            <ul class="menu__item__sub">
+              <li><a href="#">안내견이란</a></li>
+              <li><a href="#">안내견 추모관</a></li>
+              <li><a href="#">안내견 신청</a></li>
+              <li><a href="#">자원봉사 신청</a></li>
+              <li><a href="#">반려견 분양 신청</a></li>
+            </ul>
+          </li>
+          <li class="menu__item"><a href="#">마이독뉴스</a></li>
+        </ul>
+      </header>
+
+      <!--section1 : main-->
+      <section id="main">
+        <!--main text box-->
+        <div class="main__text-box">
+          <h1 class="main__title">
+            <span>함께</span>있어 <span><br />따뜻한 삶</span><br />
+            MY DOG &amp; <br />
+            SAMSUNG
+          </h1>
+        </div>
+
+        <!--main image box-->
+        <div class="main__img-box main__img01">
+          <img src="img/main01_text.png" alt="main 1st image" />
+        </div>
+        <div class="main__img-box main__img02">
+          <img src="img/main01.png" alt="main 2nd image" />
+        </div>
+        <div class="main__img-box main__img03">
+          <img src="img/main03.png" alt="main 3rd image" />
+        </div>
+        <div class="main__img-box main__img04">
+          <img src="img/main04.png" alt="main 4th image" />
+        </div>
+
+        <!--scroll down-->
+        <div class="main__scroll">
+          <p class="scroll__name">SCROLL<br />DOWN</p>
+          <div class="scroll__arrow"></div>
+        </div>
+      </section>
+
+      <!--section2 : 안내견 신청-->
+      <section id="enroll">
+        <div class="sec__container">
+          <!--image box-->
+          <div class="enroll__container">
+            <div class="enroll__img-box">
+              <img
+                src="img/sec2-dogbox.png"
+                alt="img-box"
+                class="pc-enroll__img"
+              />
+              <img
+                src="img/sec2-mobile.png"
+                alt="mobile img-box"
+                class="mo-enroll__img"
+              />
+            </div>
+
+            <div class="enroll__desc">
+              <h3 class="enroll__desc__title">안내견 신청</h3>
+              <p class="enroll__desc__sub">
+                안내견은 시각장애인의 <br />
+                동반자가 되어 안전한 보행을 돕습니다.
+              </p>
+            </div>
+
+            <div id="enroll__btn">
+              <button>안내견<br />신청하러가기</button>
+              <div class="enroll__arrow">
+                <img src="img/pc-right_arrow.png" alt="right arrow" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--section3 : 안내견 학교 설명-->
+      <section id="school">
+        <div class="sec__container">
+          <div class="title__wrap">
+            <h3 class="title__desc title__bar">안내견 양성기관</h3>
+            <h2 class="title__name">삼성화재<span>안내견학교</span></h2>
+          </div>
+        </div>
+        <div class="school__job">
+          <!--안내견 학교 설명 첫번째-->
+          <div class="job">
+            <div class="job__img">
+              <img src="img/sec3-01.png" alt="" />
+            </div>
+            <div class="job__text-box">
+              <h3 class="job__title">삼성화재<br /><span>안내견학교?</span></h3>
+              <p class="job__desc">
+                보건복지부 인증을 받은<br />
+                안내견 양성기관으로,<br />
+                안내견을 시각장애인에게<br />
+                무상 분양하고있습니다.
+              </p>
+            </div>
+          </div>
+
+          <!--안내견 학교 설명 두번째-->
+          <div class="job job--reverse">
+            <div class="job__img">
+              <img src="img/sec3-02.png" alt="" />
+            </div>
+            <div class="job__text-box text-box--reverse">
+              <h3 class="job__title">
+                <span>시각장애인</span>의<br />
+                <span>안전</span>을 책임지는<br />
+                <span>안내견</span>
+              </h3>
+              <p class="job__desc">
+                시각장애인의 보행을 안전하게 <br />
+                안내하고 그들과 함께 함으로써,<br />
+                장애인 스스로 사회의 일원으로<br />
+                살아갈수있도록 도와줍니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- tab & mobile ver. -->
+        <div class="mobile__job__container">
+          <!--안내견 학교 설명 첫번째-->
+          <div class="mo-job">
+            <div class="mo-job__img">
+              <img src="img/mo-sec3-01.png" alt="" />
+            </div>
+            <div class="mo-text-box__container">
+              <!--title-->
+              <div class="mo-job__text-box mo-text-box--row">
+                <h3 class="mo-job__title">
+                  삼성화재<br /><span>안내견학교?</span>
+                </h3>
+              </div>
+              <!--description-->
+              <div class="mo-job__desc-box">
+                <p class="mo-job__desc">
+                  보건복지부 인증을 받은 안내견 양성기관으로,<br />
+                  안내견을 시각장애인에게 무상 분양하고있습니다.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mo-job">
+            <div class="mo-job__img">
+              <img src="img/mo-sec3-02.png" alt="" />
+            </div>
+            <div class="mo-text-box__container">
+              <!--title-->
+              <div class="mo-job__text-box mo-text-box--reverse">
+                <h3 class="mo-job__title">
+                  <span>시각장애인</span><br/>
+                  <span>안전</span>을 책임<br />
+                  지는<span>안내견</span>
+                </h3>
+              </div>
+              <!--description-->
+              <div class="mo-job__desc-box mo-desc-box--reverse">
+                <p class="mo-job__desc">
+                  시각장애인의 보행을 안전하게 안내하고 그들과 함께 함으로써,<br />
+                  장애인 스스로 사회의 일원으로 살아갈수있도록 도와줍니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--section4 : 자원봉사 신청 안내-->
+      <section id="volunteer">
+        <div class="sec__container">
+          <div class="title__wrap">
+            <h3 class="title__desc title__bar">삼성화재안내견학교</h3>
+            <h2 class="title__name"><span>자원봉사 신청</span>안내</h2>
+          </div>
+        </div>
+        <div class="volunteer__container">
+          <!--퍼피워킹-->
+          <div
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-easing="linear"
+            class="volunteer__item volunteer__walking"
+          >
+            <div class="volunteer__img">
+              <img src="img/sec4-01.png" alt="puppy walking image" />
+            </div>
+            <div class="volunteer__text-box walking__text-box">
+              <h3 class="volunteer__title">퍼피워킹</h3>
+              <p class="volunteer__desc">
+                안내견으로 성장할 강아지들을<br />
+                생후 7주부터 약1년간 사회화를 위해 <br />
+                위탁/양육하는 자원봉사 활동입니다.
+              </p>
+              <button class="volunteer__btn">
+                <p>지원사항 및 자격요건 확인하기</p>
+                <img src="img/sec4-btn_arrow.png" alt="right arrow" />
+              </button>
+            </div>
+          </div>
+
+          <!--은퇴 안내견 케어-->
+          <div
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="500"
+            data-aos-easing="linear"
+            class="volunteer__item volunteer__care"
+          >
+            <div class="volunteer__img">
+              <img src="img/sec4-02.png" alt="dog care image" />
+            </div>
+            <div class="volunteer__text-box care__text-box">
+              <h3 class="volunteer__title">은퇴 안내견 케어</h3>
+              <p class="volunteer__desc">
+                은퇴 안내견이 행복한 노후를<br />
+                보낼 수 있도록 가정에서 돌보는 <br />
+                자원봉사 활동입니다.
+              </p>
+              <button class="volunteer__btn">
+                <p>지원사항 및 자격요건 확인하기</p>
+                <img src="img/sec4-btn_arrow.png" alt="right arrow" />
+              </button>
+            </div>
+          </div>
+
+          <!--견사 자원봉사-->
+          <div
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="800"
+            data-aos-easing="linear"
+            class="volunteer__item volunteer__shelter"
+          >
+            <div class="volunteer__img">
+              <img src="img/sec4-03.png" alt="dog shelter-cleaning image" />
+            </div>
+            <div class="volunteer__text-box shelter__text-box">
+              <h3 class="volunteer__title">견사 자원봉사</h3>
+              <p class="volunteer__desc">
+                견사에 주1회 정한 요일마다<br />
+                방문하여 리트리버들을 보살피고, <br />
+                환경정리를 돕는 자원봉사입니다.
+              </p>
+              <button class="volunteer__btn">
+                <p>지원사항 및 자격요건 확인하기</p>
+                <img src="img/sec4-btn_arrow.png" alt="right arrow" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- tab & mobile ver -->
+        <div class="mobile__volunteer">
+          <!-- swiper -->
+          <div class="swiper-container volunteer-swiper-container">
+            <div class="swiper-wrapper volunteer-swiper-wrapper">
+              <!-- 퍼피워킹 -->
+              <div class="swiper-slide volunteer-swiper-slide">
+                <div class="mo-volunteer__img">
+                  <img src="img/mo-sec4-01.png" alt="puppy walking image" />
+                </div>
+                <div class="mo-volunteer__text-box walking__text-box">
+                  <h3 class="mo-volunteer__title">퍼피워킹</h3>
+                  <p class="mo-volunteer__desc">
+                    안내견으로 성장할 강아지들을 생후 7주부터 약1년간<br />
+                    사회화를 위해 위탁/양육하는 자원봉사 활동입니다.
+                  </p>
+                  <button class="mo-volunteer__btn">
+                    <p>지원사항 및 자격요건 확인하기</p>
+                  </button>
+                </div>
+              </div>
+
+              <!-- 은퇴 안내견 케어 -->
+              <div class="swiper-slide volunteer-swiper-slide">
+                <div class="mo-volunteer__img">
+                  <img src="img/mo-sec4-02.png" alt="dog care image" />
+                </div>
+                <div class="mo-volunteer__text-box care__text-box">
+                  <h3 class="mo-volunteer__title">은퇴 안내견 케어</h3>
+                  <p class="mo-volunteer__desc">
+                    은퇴 안내견이 행복한 노후를 보낼 수 있도록 <br />가정에서
+                    돌보는 자원봉사 활동입니다.
+                  </p>
+                  <button class="mo-volunteer__btn">
+                    <p>지원사항 및 자격요건 확인하기</p>
+                  </button>
+                </div>
+              </div>
+              <!-- 견사 자원봉사 -->
+              <div class="swiper-slide volunteer-swiper-slide">
+                <div class="mo-volunteer__img">
+                  <img
+                    src="img/mo-sec4-03.png"
+                    alt="dog shelter-cleaning image"
+                  />
+                </div>
+                <div class="mo-volunteer__text-box shelter__text-box">
+                  <h3 class="mo-volunteer__title">견사 자원봉사</h3>
+                  <p class="mo-volunteer__desc">
+                    견사에 주1회 정한 요일마다 방문하여 리트리버들을
+                    <br />보살피고, 환경정리를 돕는 자원봉사입니다.
+                  </p>
+                  <button class="mo-volunteer__btn">
+                    <p>지원사항 및 자격요건 확인하기</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- swiper Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--section5: 안내견 추모관-->
+      <section id="memorial">
+        <div class="sec__container">
+          <div class="title__wrap">
+            <h2 class="title__name">안내견 <span>추모관</span></h2>
+            <h3 class="title__desc">
+              사랑을 나누고 떠난 견공들을 추모하는 공간입니다.
+            </h3>
+          </div>
+        </div>
+
+        <!-- 안내견 추모관 Swiper -->
+        <div class="swiper-container memorial-swiper-container">
+          <div class="swiper-wrapper memorial-swiper-wrapper">
+            <div class="swiper-slide memorial-swiper-slide">
+              <div class="memorial__img-box">
+                <img src="img/sec5-01.png" alt="" />
+              </div>
+              <div class="memorial__text-box">
+                <p class="memorial__name">예랑</p>
+                <p class="memorial__date">21.01.05</p>
+              </div>
+            </div>
+            <div class="swiper-slide memorial-swiper-slide">
+              <div class="memorial__img-box">
+                <img src="img/sec5-02.png" alt="" />
+              </div>
+              <div class="memorial__text-box">
+                <p class="memorial__name">파란</p>
+                <p class="memorial__date">20.12.11</p>
+              </div>
+            </div>
+            <div class="swiper-slide memorial-swiper-slide">
+              <div class="memorial__img-box">
+                <img src="img/sec5-03.png" alt="" />
+              </div>
+              <div class="memorial__text-box">
+                <p class="memorial__name">평온</p>
+                <p class="memorial__date">20.11.25</p>
+              </div>
+            </div>
+            <div class="swiper-slide memorial-swiper-slide">
+              <div class="memorial__img-box">
+                <img src="img/sec5-04.png" alt="" />
+              </div>
+              <div class="memorial__text-box">
+                <p class="memorial__name">곤지</p>
+                <p class="memorial__date">20.10.09</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--footer-->
+      <footer>
+        <div class="sec__container">
+          <div class="footer__top">
+            <div class="footer__tel">
+              <p>안내견학교 전화번호</p>
+              <h3 class="tel__number">031-320-8922</h3>
+              <p>(이용시간 : 월~금요일 08:00~17:00)</p>
+            </div>
+            <div class="footer__logo">
+              <img src="img/pc-footer_logo.png" alt="footer logo" />
+            </div>
+          </div>
+          <div class="footer__top-line"></div>
+          <p class="footer__desc">
+            삼성화재안내견학교는 개인과 기업의 후원을 일체 받지 않으며, 관계
+            대상자(시각장애인파트너/자원봉사자)는<br />
+            사전 계약에 따라안내견을 마케팅&#47;홍보&#47;모금 활동 등 영리 목적으로
+            이용하지 않습니다.
+          </p>
+          <div class="footer__bottom-line"></div>
+          <p class="footer__copy">
+            경기도 용인시 처인구 포곡읍 에버랜드로 199<br />
+            1999 mydog.samsung.com all rights reserved
+          </p>
+        </div>
+      </footer>
+
+      <!--fixed btn : 안내견 신청 버튼-->
+      <div id="fixed__enroll-btn">
+        <div class="fixed__text">
+          <p>CLICK</p>
+          <img src="img/pc-right_arrow.png" alt="right arrow" />
+        </div>
+        <div class="fixed__img">
+          <img src="img/fixed-dog.png" alt="fixed btn" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
