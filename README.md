@@ -1,9 +1,8 @@
 # 삼성화재 안내견 사이트 리뉴얼
 
 **💛PC ver. 디자인
-<img src="ttps://user-images.githubusercontent.com/75009488/111438135-4087c700-8747-11eb-877a-f60992004f31.jpg" />
-<br/>
-💛Mobile ver. 디자인
+<img src="ttps://user-images.githubusercontent.com/75009488/111438135-4087c700-8747-11eb-877a-f60992004f31.jpg" />**
+**💛Mobile ver. 디자인
 <img src="https://user-images.githubusercontent.com/75009488/111438180-49789880-8747-11eb-8e52-de87c5b813f2.jpg"/>**  
 
 
