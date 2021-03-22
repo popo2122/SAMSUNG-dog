@@ -1,13 +1,5 @@
 # 삼성화재 안내견 사이트 리뉴얼
 
-**💛PC ver. 디자인
-<img src="ttps://user-images.githubusercontent.com/75009488/111438135-4087c700-8747-11eb-877a-f60992004f31.jpg" />**
-<br/>
-<br/>
-**💛Mobile ver. 디자인
-<img src="https://user-images.githubusercontent.com/75009488/111438180-49789880-8747-11eb-8e52-de87c5b813f2.jpg"/>**  
-
-
 ### How to Design
 ```
   -삼성을 상징하는 색깔인 파란색과, 안내견을 나타내는 색인 노란색을 사용. 사이트 전체적으로 상징적인 색을 사용하여 눈길을 끌고자 함.
@@ -26,3 +18,13 @@
 -이미지 슬라이드는 Swiper 라이브러리 활용
 
 ```
+
+**💛PC ver. 디자인
+<img src="ttps://user-images.githubusercontent.com/75009488/111438135-4087c700-8747-11eb-877a-f60992004f31.jpg" />**
+<br/>
+<br/>
+**💛Mobile ver. 디자인
+<img src="https://user-images.githubusercontent.com/75009488/111438180-49789880-8747-11eb-8e52-de87c5b813f2.jpg"/>**  
+
+
+
