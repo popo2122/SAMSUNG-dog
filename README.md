@@ -11,7 +11,7 @@
 - 사용자의 편의를 고려하여, 안내견 신청에 관련된 'fixed button'디자인           
 
   
-### *💛 Maintenence*
+### *💛 Code*
 
 - 메인 레이아웃은 jQuery로 자연스럽게 resize될 수 있도록 반응형 구현하였습니다.
     + window width값 및 resize 이벤트 사용하여 구현
