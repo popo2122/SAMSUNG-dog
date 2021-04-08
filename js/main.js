@@ -61,35 +61,6 @@ $(function () {
       $(".scroll__name").css({
         marginBottom: ww * 0.005,
       });
-      $("#school").css({
-        width: ww,
-      });
-      $("#school__job").css({
-        width: ww,
-        height: ww * 0.562,
-      });
-      $(".job__img").css({
-        width: ww * 0.583,
-      });
-      $(".job__text-box").css({
-        width: ww * 0.416,
-      });
-      $("#memorial").css({
-        width: ww,
-        height: ww * 0.562,
-      });
-      $(".memorial__img-box").css({
-        width: ww * 0.208,
-        height: ww * 0.208,
-      });
-      $(".memorial__text-box").css({
-        width: ww * 0.208,
-        height: ww * 0.208,
-      });
-      $("#fixed__enroll-btn").css({
-        width: ww * 0.182,
-        height: ww * 0.182,
-      });
     } else if (ww < 1440 && ww >= 960) {
       //tab값
       $("#wrap").css({
